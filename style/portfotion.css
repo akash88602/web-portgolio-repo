@@ -1,59 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     background-image: url('../images/banner/banner1.png');
     width: 1700px;
     height: 800px;
 
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-.haeder-bottom{
-    padding:230px 230px 800px 100px ;
+.header-container{
+    padding:230px 230px 100px 800px ;
     text-align:right;
 
     
 
 }
-.header-style{
+.header-title{
+    margin-bottom: 20px;
     font-size: 64px;
     font-weight: 600px;
 }
-.bottom-praimary{
+.header-description{
+    margin-bottom: 100px;
     padding:12px ;
     padding: 20px;
 
 }
- .bottom-titie{
+.header-btn{
     height: 65px;
-    border-radius: 5px;
+    border-radius:5px;
     background: chocolate;
-    border: 0;
+    border:0;
     font-size: 20px;
-    font-weight: ;
+    font-weight:;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    color: #FFFFFF;
   
  }
- .bannar-styles{
+.section1{
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    margin:20px   200px;
+    margin:100px   200px;
     
  }
+ .section1-ul{
+    margin:200px;
+ }
+ .section1-ul h2{
+    margin: 0 0 20px 0;
+    font-size: 40px;
+ }
+ .section1-ul p{
+    margin-bottom: 20px;
+ }
+ .section1-ul h6{
+    margin-left: 20px;
+ }
  /* MY plans style */
- .select-litle{
-    display: contents;
+ .section-our-plan{
+    text-align: center;
+    margin: 50px 200px;
+ }
+.section-title{
+    font-size:40px;
+    margin: 30px 0 ;
+  
  }
 .skill-contaniner{
+    justify-content: center;
     display: flex;
-    gop: 24px;
+    gap: 24px;
 
  }
  .skill{
-    background: lightgrey;
+    background:;
     box-shadow: 
-    border-radius: ;5px
+    border-radius:5px;
     padding:30px;
 
  }
@@ -80,18 +106,18 @@ header{
  }
  .now-title{
     padding-right: 500px;
-    color:.;
+    color:#FFFFFF;
     font-size:30px;
     margin-bottom:20px;
 
  }
- .bottom-praimary{
-    height: 65px;
-    border-radius: 5px;
-    background: chocolate;
-    border: 0;
-    font-size: 20px;
-    font-weight: ;
+ .call-now-btn{
+    color: #F15B22;
+     background-color: #FFFFFF;
+     font-size: 20px;
+     margin-top: 20px;
+     padding: 10px;
+     border-radius: 8px;
  }
   
    /* footer*/
@@ -104,13 +130,17 @@ header{
     gap: 25px;
 }
 
-.contact-address{
-    background:#FFFFFF
+.footer-contact-us{
+    color: #FFFFFF;
+    font-size: 40px;
 }
 .footer{
 
     font-size: 45px;
 
+}
+.footer-email{
+    color: #FFFFFF;
 }
 
 
@@ -128,7 +158,6 @@ header{
      margin-bottom: 40px;
  }
  #subscribe-email{
-     background-color: #151414;
      border: 2px solid white;
      border-radius: 8px;
      padding: 20px 240px 20px 20px;
@@ -155,4 +184,3 @@ header{
 .description-now{
     margin-top: 10px;
     padding-right: 100px;}
-    
