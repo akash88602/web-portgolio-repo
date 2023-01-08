@@ -1,0 +1,158 @@
+header{
+    background-image: url('../images/banner/banner1.png');
+    width: 1700px;
+    height: 800px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.haeder-bottom{
+    padding:230px 230px 800px 100px ;
+    text-align:right;
+
+    
+
+}
+.header-style{
+    font-size: 64px;
+    font-weight: 600px;
+}
+.bottom-praimary{
+    padding:12px ;
+    padding: 20px;
+
+}
+ .bottom-titie{
+    height: 65px;
+    border-radius: 5px;
+    background: chocolate;
+    border: 0;
+    font-size: 20px;
+    font-weight: ;
+  
+ }
+ .bannar-styles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin:20px   200px;
+    
+ }
+ /* MY plans style */
+ .select-litle{
+    display: contents;
+ }
+.skill-contaniner{
+    display: flex;
+    gop: 24px;
+
+ }
+ .skill{
+    background: lightgrey;
+    box-shadow: 
+    border-radius: ;5px
+    padding:30px;
+
+ }
+ .skill-litle{
+    font-size: 20;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+ }
+  /* MY call*/
+
+ .call-now{
+    background: url('../images/watch.png'),
+     url('../images/gradient3.png');
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1040px;
+    height: 300px;
+    padding: 150px 230px;
+ }
+ .now-container{
+    margin: 50px 70px;
+ }
+ .now-title{
+    padding-right: 500px;
+    color:.;
+    font-size:30px;
+    margin-bottom:20px;
+
+ }
+ .bottom-praimary{
+    height: 65px;
+    border-radius: 5px;
+    background: chocolate;
+    border: 0;
+    font-size: 20px;
+    font-weight: ;
+ }
+  
+   /* footer*/
+.psitive{
+    background-color: #151414;
+    width: 1150px;
+    height: 300px;
+    display: flex;
+    padding: 130px 230px;
+    gap: 25px;
+}
+
+.contact-address{
+    background:#FFFFFF
+}
+.footer{
+
+    font-size: 45px;
+
+}
+
+
+.contact-address{
+    padding-right: 100px;
+ }
+ .subscribe-title{
+     color: #FFFFFF;
+ }
+ .subscribe{
+     padding: 0 10px 0 150px;
+ }
+ .subscribe-title{
+     font-size: 30px;
+     margin-bottom: 40px;
+ }
+ #subscribe-email{
+     background-color: #151414;
+     border: 2px solid white;
+     border-radius: 8px;
+     padding: 20px 240px 20px 20px;
+ }
+ .subscribe .bottom-primary{
+     color: #F15B22;
+     background-color: #FFFFFF;
+     font-size: 20px;
+     margin-top: 20px;
+     padding: 10px;
+     border-radius: 8px;
+ }
+ .footer-icons{
+     margin-top: 30px;
+     display: flex;
+     gap: 20px;
+   
+    }
+    
+.description-now{
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.description-now{
+    margin-top: 10px;
+    padding-right: 100px;}
+    
